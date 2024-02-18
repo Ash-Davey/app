@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 360px;
+    height: 640px;
+    background-color: #041e42;
+}
+
+.header {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #0085ca;
+    display: block;
+    margin: 0 auto;
+    height: 75px;
+}
+
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    color: #0085ca;
+}
+
+form {
+    width: 360px;
+    height: 565px;
+    font-weight: bold;
+    color: white;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    height: 35px;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+input:active {
+    border-color: #0085ca;
+}
+
+label {
+    font-size: 24px;
+}
+
+button, button > a {
+    width: 60%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #0085ca;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.login p a {
+    color: #fcaf17;
+}
+
+.login p a:hover {
+    color: #de772e;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.micon {
+    width: 31%;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mtext {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
