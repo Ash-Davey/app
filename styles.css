@@ -44,6 +44,34 @@ form {
     margin-top: 20px;
 }
 
+.login > label {
+    font-size: 24px;
+}
+
+.uniform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+select { 
+    margin-top: 10px;
+}
+
+.item, .qty, .size {
+   margin-right: 15px;
+}
+
+.btn {
+    text-align: center;
+}
+
+button[type=button] {
+    background-color: #de772e;
+    margin-bottom: 20px;
+}
+
 input[type=text], input[type=password] {
     width: 80%;
     height: 35px;
@@ -53,10 +81,6 @@ input[type=text], input[type=password] {
 
 input:active {
     border-color: #0085ca;
-}
-
-label {
-    font-size: 24px;
 }
 
 button, button > a {
@@ -89,6 +113,13 @@ button:hover {
     justify-content: center;
     margin-top: 5px;
     font-weight: bold;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -90px;
 }
 
 .micon {
