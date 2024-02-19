@@ -23,7 +23,6 @@
     height: 75px;
 }
 
-
 h1 {
     font-style: italic;
 }
@@ -32,11 +31,12 @@ h2 {
     color: #0085ca;
 }
 
-form {
+form, .content {
     width: 360px;
-    height: 565px;
+    height: 475px;
     font-weight: bold;
     color: white;
+    margin-top: 10px;
 }
 
 .login {
@@ -44,7 +44,7 @@ form {
     margin-top: 20px;
 }
 
-.login > label {
+.login label {
     font-size: 24px;
 }
 
@@ -52,7 +52,22 @@ form {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 20px;
+}
+
+.holiday {
+    text-align: center;
+}
+
+.holiday input {
+    margin: 10px 0 10px 0;
+}
+
+.holiday input[type=radio] {
+    margin-right: 5px;
+}
+
+.holiday span label {
+    color: #fcaf17;
 }
 
 select { 
@@ -68,7 +83,7 @@ select {
 }
 
 button[type=button] {
-    background-color: #de772e;
+    background-color: #fcaf17;
     margin-bottom: 20px;
 }
 
@@ -119,7 +134,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: -90px;
+    
 }
 
 .micon {
